@@ -10,12 +10,12 @@
 
 <link rel="stylesheet" type="text/css" href="game.css">
 </head>
-<body>
+<body background="bg image.jpg">
 <h4 id="player1_name"></h4> <span id="player1_score"></span> <br>
 <h4 id="player2_name"></h4> <span id="player2_score"></span>
 <div class="container">
 	<center>
-		<h2 style="color: white;">Guess The Word!</h2>
+		<h2 style="color: white;">Math Quiz</h2>
 			<h3 id="player_question"></h3> 
 			<h3 id="player_answer"></h3> 
 			<div id="output" class="col-lg-6"></div>
@@ -24,8 +24,11 @@
 		<br>
 		<br>
 
-		<label>Send You Word: <b style="color: red">Try putting word which has 5 or more alphabet</b></label>
-		<input type="text" id="word" class="form-control" placeholder="Word">
+		<label>Send You number: <b style="color: red">Enter a number </b></label>
+		<input type="text" id="number1" class="form-control" placeholder="number">
+		<br>
+		<label>Send You number: <b style="color: red">Enter a number </b></label>
+		<input type="text" id="number2" class="form-control" placeholder="number">
 		<br>
 		<button onclick="send()" class="btn btn-success" style="width:30%;">Send</button>
 	</center>
